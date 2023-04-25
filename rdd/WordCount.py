@@ -1,4 +1,5 @@
 from pyspark import SparkContext, SparkConf
+import psycopg2
 
 if __name__ == "__main__":
     conf = SparkConf().setAppName("word count").setMaster("local[3]")
